@@ -201,6 +201,13 @@ public class clsusuario: clsconexion
         // el objeto no existe
         return false;
     }
+    //cargar grid view
+    public void CargarDatos()
+    {
+        conectar(tabla);
+        DataRow fila;
+
+    }
 
 
 }

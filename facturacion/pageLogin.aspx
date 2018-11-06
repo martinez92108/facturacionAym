@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPageLogin.master" AutoEventWireup="true" CodeFile="pageLogin.aspx.cs" Inherits="pageLogin" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <form id="form1" runat="server" style="width: 918px; height: 324px">
+    <form id="form1"  runat="server" style="margin:80px; width: 918px; height: 117px" >
+       <!--
         <p>
             <br />
             <table style="width: 99%; height: 150px">
@@ -62,6 +63,30 @@
         </p>
         <p>
         </p>
+    -->
+     <link href="Content/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+         <div class="form-group">
+    <label for="exampleInputEmail1">Usuario</label>
+   <!-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> -->
+    <asp:TextBox ID="txt_usuario1" runat="server" placeholder="Ingrese su Usuario" class="form-control" Width="600px"></asp:TextBox>
+    
+  </div>
+
+ <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <!--<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">-->
+    <asp:TextBox ID="txt_password1" runat="server" placeholder="Ingrese su Contraseña" class="form-control" Width="600px" TextMode="Password"></asp:TextBox>
+ </div>
+ 
+        <asp:Button ID="Button1" runat="server" Text="Iniciar" class="btn btn-primary" OnClick="Button1_Click" Width="74px" />
+   <!--<button type="submit" class="btn btn-primary">Submit</button> -->
+
     </form>
+      
+   
+   
+   
+    
+
 </asp:Content>
 

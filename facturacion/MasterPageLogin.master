@@ -24,22 +24,37 @@ $((function () {
 </script>
     <style type="text/css">
         .auto-style1 {
-            width: 464px;
-            height: 162px;
+            width: 376px;
+            height: 151px;
         }
         .auto-style2 {
             height: 193px;
         }
+        .auto-style3 {
+            width: 312px;
+            height: 72px;
+        }
+        .auto-style4 {
+            width: 313px;
+            height: 50px;
+        }
+        .auto-style5 {
+            float: right;
+            width: 426px;
+            height: 159px;
+        }
     </style>
 </head>
-<body id="top">
+<body id="top" style="margin:10px;">
 <div id="header" class="auto-style2">
   <div class="wrapper">
     <div class="fl_left">
-      <h1><a href="index.html">Internet Business</a></h1>
-      <p>Free Website Template</p>
+
+      <h1 class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+        <h1 class="bold" style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bienvenido</h1>
+      <p class="auto-style4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
     </div>
-    <div class="fl_right"> &nbsp;<img alt="" class="auto-style1" src="images/logo/logo%20A&M.jpg" /></div>
+    <div class="auto-style5"> &nbsp;<img alt="" class="auto-style1" src="images/logo/logo%20A&M.jpg" /></div>
     <br class="clear" />
   </div>
 </div>
@@ -70,8 +85,7 @@ $((function () {
 <div id="copyright">
   <div class="wrapper">
     <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">A & M Ingenieria </a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <br class="clear" />
+    <br />
   </div>
 </div>
 </body>
