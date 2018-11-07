@@ -8,7 +8,7 @@ using System.Configuration;
 
 
 /// <summary>
-/// clse del objeto empleado
+/// clse del objeto usuario
 /// </summary>
 public class clsusuario: clsconexion
 {
@@ -201,13 +201,7 @@ public class clsusuario: clsconexion
         // el objeto no existe
         return false;
     }
-    //cargar grid view
-    public void CargarDatos()
-    {
-        conectar(tabla);
-        DataRow fila;
-
-    }
-
+   
+   
 
 }

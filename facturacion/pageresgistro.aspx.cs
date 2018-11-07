@@ -82,17 +82,17 @@ public partial class pageresgistro : System.Web.UI.Page
                 clsusuario usuario = new clsusuario(0, 0, "", "", "", "", "", "");
                 if (usuario.existe(int.Parse(txt_cedula.Text.Trim())))
                 {
-                    usuario.Idusuario = int.Parse(txt_cedula.Text);
-                    usuario.Id_tipo_usuario = int.Parse(rbtipo_usuario.SelectedValue);
-                    usuario.Nombre = txt_nombre.Text;
-                    usuario.Apellido = txt_apellido.Text;
-                    usuario.Celular = txt_celular.Text;
-                    usuario.Direccion = txt_direccion.Text;
-                    usuario.Usuario = txt_usuario.Text;
-                    usuario.Password = txt_password.Text;
-                    usuario.modificar();
-                    GUIEdicionTerminada();
-                    lbl_estado.Text = "Usuario Modificado con exito";
+                    //usuario.Idusuario = int.Parse(txt_cedula.Text);
+                    //usuario.Id_tipo_usuario = int.Parse(rbtipo_usuario.SelectedValue);
+                    //usuario.Nombre = txt_nombre.Text;
+                    //usuario.Apellido = txt_apellido.Text;
+                    //usuario.Celular = txt_celular.Text;
+                    //usuario.Direccion = txt_direccion.Text;
+                    //usuario.Usuario = txt_usuario.Text;
+                    //usuario.Password = txt_password.Text;
+                    //usuario.modificar();
+                    //GUIEdicionTerminada();
+                    lbl_estado.Text = "El usuario ya esta registrado";
                     btn_nuevo.Text = "Nuevo";
                 }
                 else
